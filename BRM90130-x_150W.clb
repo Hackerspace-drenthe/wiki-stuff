@@ -562,12 +562,31 @@
                 <index Value="0"/>
                 <name Value=""/>
                 <LinkPath Value="mdf/-1.0000/engraving"/>
-                <minPower Value="18"/>
-                <maxPower Value="18"/>
+                <minPower Value="85"/>
+                <maxPower Value="85"/>
                 <maxPower2 Value="20"/>
-                <speed Value="500"/>
+                <speed Value="250"/>
                 <dotTime Value="1"/>
                 <interval Value="0.08"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="mdf/4.0000/snijden"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="30"/>
+                <dotTime Value="1"/>
                 <priority Value="0"/>
                 <manualTabs Value="0"/>
                 <tabSize Value="0.2"/>
@@ -791,6 +810,45 @@
                 <maxPower Value="15"/>
                 <maxPower2 Value="20"/>
                 <speed Value="500"/>
+                <dotTime Value="1"/>
+                <interval Value="0.08"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="snijden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="plywood/4.5000/snijden_copy"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="35"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="engraving_medium">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="plywood/-1.0000/engraving_copy"/>
+                <minPower Value="25"/>
+                <maxPower Value="25"/>
+                <maxPower2 Value="20"/>
+                <speed Value="350"/>
                 <dotTime Value="1"/>
                 <interval Value="0.08"/>
                 <priority Value="0"/>
